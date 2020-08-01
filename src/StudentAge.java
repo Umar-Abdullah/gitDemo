@@ -3,12 +3,14 @@ import javax.print.DocFlavor;
 public class StudentAge {
     public static void main(String[] args) {
 
-        int By = 2002;
-                int Cy = 2020;
-                        int CurrentAge = (Cy - By);
+        int by = 2002;
+                int cy = 2020;
+                int ty = 2004;
 
-        System.out.println("Hamza is currently:" );
-        System.out.println(CurrentAge);
+        System.out.println("Mia is currently:");
+        System.out.println(cy - ty);
+        System.out.println("umar is currently:");
+        System.out.println(cy - by);
 
     }
 }
